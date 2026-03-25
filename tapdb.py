@@ -41,7 +41,7 @@ class InputWindow(QMainWindow):
     query = self.sql_input.toPlainText()
     
     try:
-      with sqlite3.connect('file:/home/prime/pkm/data.db?mode=ro', uri=True) as conn:
+      with sqlite3.connect('path/to/database.db?mode=ro', uri=True) as conn:
         # register formatting functions: (SQL_NAME, ARG_COUNT, PYTHON_FUNCTION)
         conn.create_function("deva", -1, lambda text: wrap_style(text, "deva"))
         conn.create_function("gr", -1, lambda text: wrap_style(text, "greek"))
