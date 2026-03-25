@@ -1,3 +1,5 @@
+# initial input window, event loop
+
 import sys
 import sqlite3
 import random
