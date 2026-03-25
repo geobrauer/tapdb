@@ -1,7 +1,5 @@
-# SELECT question, md(answer) FROM cards WHERE category = 'python'
+# style sheet
 
-# import html
-# import sqlite3
 import markdown
 
 styling = """
