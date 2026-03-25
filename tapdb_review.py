@@ -1,3 +1,5 @@
+# review function (w/o spaced repetition)
+
 from PyQt6.QtWidgets import QMainWindow, QTextBrowser, QLabel, QVBoxLayout, QWidget
 from PyQt6.QtCore import Qt
 import re
