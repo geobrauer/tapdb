@@ -11,6 +11,6 @@ The initial window allows the database to be queried using normal SQL syntax, as
 <img width="282" height="274" alt="initial" src="https://github.com/user-attachments/assets/11933730-8988-4ad3-ba70-5996f3b9c733" />
 
 The user flips cards with the tab key, and can mark cards answered incorrectly with the 1 key, causing them to recur later in the session. Formatting (as custom-defined in the style sheet) can be applied in the query using the following syntax:  
-`select deva(sanskrit), def` where `sanskrit` and `def` are columns, and `deva()` specifies that the sanskrit column should be rendered in a given font appropriate to the Devanagari script.
+`select deva(sanskrit), def` where `sanskrit` and `def` are columns, and `deva()` specifies that the Sanskrit column should be rendered in a given font appropriate to the Devanagari script.
 
 This is a work in progress. Only the "Review" function (the button on the right) currently works. In the future, the "Study" function will add spaced-repetition and the "Edit" function will provide a browser to edit the table directly.
