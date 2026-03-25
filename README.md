@@ -6,7 +6,7 @@ This program taps a SQLite database directly to render flashcards from the colum
 
 It is meant to provide flashcard functionality while allowing the source data to be reliably stored, updated, and analyzed using standard database practices. This addresses a shortcoming of the common flashcard program Anki, in which the flashcard data is stored in a walled-garden database that can't reliably be analyzed or exported. (For example, Anki will only export data to a tab-separated .txt file from which either all formatting has been stripped or which is riddled with HTML).
 
-The initial screen allows the database to be queried using normal SQL syntax, as shown below. The first column named with `select` becomes the "front" side of the flashcard; subsequent selected columns (up to 3) will be shown as the "back" side, under a line.
+The initial window allows the database to be queried using normal SQL syntax, as shown below. The first column named with `select` becomes the "front" side of the flashcard; subsequent selected columns (up to 3) will be shown as the "back" side, under a line.
 
 <img width="282" height="274" alt="initial" src="https://github.com/user-attachments/assets/11933730-8988-4ad3-ba70-5996f3b9c733" />
 
